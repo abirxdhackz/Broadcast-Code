@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+body {
+    background-image: linear-gradient(to right top, #8b90f3, #39aaff, #00bff6, #00cde0, #5fd8c6, #7ad8ae, #99d697, #b7d284, #c7c365, #d9b24c, #ed9c40, #ff8243);
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    color: #ff0000bd;
+    text-decoration: none;
+}
+
+.glass-container {
+    background: rgb(255 0 245 / 11%);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 400px;
+}
+
+textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="password"],
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Nunito', sans-serif;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="file"] {
+    border: 1px solid #000;
+}
